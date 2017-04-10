@@ -1,0 +1,12 @@
+2017-04-10 11:08:44 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Bookmarks" could not be found. in C:\xampp\htdocs\customer_portal\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php on line 327
+Exception Attributes: array (
+  'class' => 'Bookmarks',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\customer_portal\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('bookmarks')
+#1 C:\xampp\htdocs\customer_portal\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\xampp\htdocs\customer_portal\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\xampp\htdocs\customer_portal\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
